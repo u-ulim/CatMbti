@@ -4,7 +4,7 @@ import styled from "styled-components";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
 import { ResultData } from "../assets/resultData";
-import KakaoShareButton from "../components/kakaoShareButton";
+import KakaoShareButton from "../components/KakaoShareButton";
 
 const Wrapper = styled.div`
   color: #fff;
