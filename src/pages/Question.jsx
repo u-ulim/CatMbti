@@ -21,6 +21,16 @@ const Title = styled.div`
   background: crimson;
   border-radius: 8px;
   text-align: center;
+  @media screen and (max-width: 780px) {
+    width: 300px;
+    font-size: 24px;
+    padding: 6px 12px;
+  }
+  @media screen and (max-width: 360px) {
+    width: 200px;
+    font-size: 18px;
+    padding: 4px 8px;
+  }
 `;
 const ButtonGroup = styled.div`
   display: flex;
